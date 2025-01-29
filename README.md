@@ -50,7 +50,7 @@ rails s
 ### 1.リポジトリをクローン
 
 ```bash
-git clone https://github.com/yourusername/notification_system.git
+git clone https://github.com/kakinotane77/notification_system.git
 cd notification_system
 ```
 
@@ -79,13 +79,13 @@ rails s
 
 | 環境       | バージョン                     |
 |-----------|--------------------------------|
-| **OS**    | macOS / Linux / Windows        |
-| **エディタ** | VS Code / RubyMine             |
-| **DB**    | PostgreSQL / SQLite            |
+| **OS**    | macOS Sequoia 15.2       |
+| **エディタ** | VS Code             |
+| **DB**    | MySQL            |
 
 ### 環境変数
 `.env` に API キーやメール設定を追加できます。
-今回はテスト用のため、環境変数は設定していません。
+**今回はテスト用のため、環境変数は設定していません。**
 
 ```ini
 SMS_API_KEY=your_sms_api_key
