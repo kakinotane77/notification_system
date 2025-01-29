@@ -1,0 +1,8 @@
+{
+  "name": "Notification System",
+  "short_name": "Notify",
+  "display": "standalone",
+  "start_url": "/",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff"
+}
