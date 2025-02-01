@@ -41,7 +41,8 @@ rails s
 - **Bundler**
 - **データベース**: MySQL
 - **Puma** (Rails の標準サーバー)
-- **Letter Opener Web**（開発環境でのメール確認用）
+- **Twilio** (SMS送信用の外部サービス)
+- **Gmail SMTP**（メール送信用のGoogle API）
 
 ---
 
@@ -84,8 +85,7 @@ rails s
 | **DB**    | MySQL            |
 
 ### 環境変数
-`.env` に API キーやメール設定を追加できます。
-**今回はテスト用のため、環境変数は設定していません。**
+.env に Twilio使用のために環境変数を設定
 
 ```ini
 SMS_API_KEY=your_sms_api_key
